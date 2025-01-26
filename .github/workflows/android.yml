@@ -33,6 +33,3 @@ jobs:
         path: ./easycontrol/app/build/outputs/apk/debug/*.apk
     - name: Releasing using Hub
       uses: sangatdesai/release-apk@main
-      with:
-        name: my-build-apk
-        path: ./easycontrol/app/build/outputs/apk/debug/*.apk
